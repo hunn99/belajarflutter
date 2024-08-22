@@ -18,12 +18,16 @@ class MyApp extends StatelessWidget {
             child: Container(
                 color: Colors.blueAccent,
                 width: 150,
-                height: 50,
+                height: 200,
                 child: Text(
                   "Saya ingin memaksimalkan kemampuan flutter saya",
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  softWrap: false,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
                 ))),
       ),
     );
